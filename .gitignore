@@ -1,0 +1,32 @@
+# Ignore the .vscode directory
+.vscode/
+
+# Ignore build directories
+build/
+cmake-build-*/
+
+# Ignore compiled object files and libraries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore dependency directories
+node_modules/
+
+# Ignore Python virtual environment directories
+venv/
+.env/
+
+# Ignore JetBrains IDE project files
+.idea/
